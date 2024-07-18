@@ -7,7 +7,7 @@ export default function () {
       <div className="content_block">
         <div className="profile">
           <div className="profile_img">
-            <img src="/public/image-victor.jpg" alt="" />
+            <img src="public/image-victor.jpg" alt="" />
           </div>
           <div className="profile_info">
             <h3>Victor Crest <span>26</span></h3>
