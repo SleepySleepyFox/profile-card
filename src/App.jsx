@@ -1,5 +1,6 @@
 import React from 'react'
 import './style.css' 
+import profile_pic from "../public/image-victor.jpg"
 
 export default function () {
   return (
@@ -7,7 +8,7 @@ export default function () {
       <div className="content_block">
         <div className="profile">
           <div className="profile_img">
-            <img src="../public/image-victor.jpg" alt="" />
+            <img src={profile_pic} alt="" />
           </div>
           <div className="profile_info">
             <h3>Victor Crest <span>26</span></h3>
